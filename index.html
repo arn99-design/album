@@ -6,6 +6,28 @@
     <title>Album Kenangan Kelas X.3 SMAN 1 Cidahu</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
+       
+  /* Mengatur tampilan khusus di HP (layar kecil) */
+  @media (max-width: 576px) {
+    /* Perkecil Judul */
+    h1, .display-4, .display-5 {
+      font-size: 1.5rem !important; /* Ukuran judul jadi lebih mungil */
+      margin-bottom: 10px !important;
+    }
+    
+    /* Perkecil area input/form */
+    .input-container {
+      padding: 10px !important; /* Ruang kosong jadi lebih sempit */
+      margin-top: 5px !important;
+    }
+
+    /* Membuat input dan tombol lebih ringkas */
+    input, textarea, button {
+      font-size: 0.9rem !important;
+      padding: 5px 10px !important;
+    }
+  }
+
         body { background-color: #f4f6f9; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
         .hero { background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%); color: white; padding: 3.5rem 0; border-radius: 0 0 2.5rem 2.5rem; box-shadow: 0 10px 25px rgba(79, 70, 229, 0.15); margin-bottom: 2.5rem; }
         .upload-section { background: white; padding: 2.5rem; border-radius: 20px; box-shadow: 0 10px 30px rgba(0,0,0,0.04); border: 1px solid rgba(0,0,0,0.05); }
